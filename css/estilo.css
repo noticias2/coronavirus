@@ -4,14 +4,14 @@ body {
   line-height: 1.5;
   color: #202020;
   background-color: #ffffff;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 /* esp = 1 */
 footer {
   background-color: rgb(20, 11, 9);
   padding: 10px 25px;
-  text-align: center; 
+  text-align: center;
 }
 /* esp = 2 */
 footer  h3, footer p {
@@ -73,7 +73,7 @@ p {
   font-family: BentonSans;
 }
 nav p {
-  font-size: 12px;
+  font-size: 17px;
   color: #303030;
 }
 /* esp = 3 */
