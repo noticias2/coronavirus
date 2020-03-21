@@ -1,0 +1,10 @@
+body {
+  background-color: rgba(255,123,164,0.44);
+}
+h1 {
+  color: #dd0032;
+  padding: 100px 25px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
