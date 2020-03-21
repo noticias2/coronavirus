@@ -1,0 +1,133 @@
+/* esp = 1 */
+body {
+  font: 400 20px BentonSans;
+  line-height: 2.0;
+  color: #202020;
+  background-color: #ffffff;
+}
+/* esp = 1 */
+footer {
+  background-color: rgb(20, 11, 9);
+  padding: 10px 25px;
+  text-align: center; 
+}
+/* esp = 2 */
+footer  h3, footer p {
+  color: #ffffff;
+  margin: 0px;
+}
+/* esp = 12 */
+footer a:link {
+  color: #dbf8ff;
+  text-decoration: underline wavy;
+}
+/* esp = 12 */
+footer a:visited {
+  color: #f8d4ff;
+}
+/* esp = 2 */
+footer img {
+  margin-top: 15px;
+}
+/* esp = 1 */
+h1 {
+  text-transform: uppercase;
+  padding: 100px 25px;
+  text-align: center; 
+  font-size: 3em; 
+  font-weight: bold;
+}
+
+/* esp = 1 */
+h2 {
+  font-size: 2.25em;
+  padding-bottom: 10px;
+}
+/* esp = 1 */
+h3 {
+  font-size: 2em;
+}
+/* esp = 1 */
+h4 {
+  font-size: 1.75em;
+}
+/* esp = 1 */
+h5 {
+  font-size: 1.5em;
+}
+/* esp = 1 */
+h6 {
+  font-size: 1.25em;
+}
+/* esp = 1 */
+h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: rgb(11, 0, 29);
+  font-family: Majerit;
+}
+/* esp = 1 */
+p {
+  color: rgb(0, 0, 0);
+  font-family: BentonSans;
+}
+/* esp = 3 */
+section p::first-letter {
+  font-size: 1.2em;
+}
+/* esp = 1 */
+video {
+  padding: 0px;
+  border: 3px solid black;
+  background: rgb(255, 255, 255);
+}
+/* esp = 2 */
+section img {
+  padding: 0px;
+  border: 3px solid black;
+}
+/* esp = 1 */
+audio {
+  border: 3px solid black;
+  border-radius: 30px;
+}
+/* esp = 1 */
+aside {
+  background-color: white;
+  border: 3px solid black;
+  padding: 0px 10px;
+}
+/* esp = 2 */
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+  font-weight: bold;
+}
+/* esp = 2 */
+nav li {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 3px 0px;
+  list-style-position: inside;
+  list-style-type: square;
+  background: #fff9f9;
+}
+/* esp = 1 */
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+/* esp = 1 */
+th, td {
+  border: 1px solid black;
+  padding: 2px 10px;
+  text-align: center;
+}
+/* esp = 11 */
+tr:nth-child(even) {
+  background-color: white;
+}
+/* esp = 11 */
+tr:nth-child(odd) {
+  background-color: rgb(224, 224, 224);
+}
