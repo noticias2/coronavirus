@@ -194,7 +194,7 @@ function cambiarFichas(tipo){
 function iniciarEvent(audio){
     document.getElementById("jugar").addEventListener("click",function(){
         reproSon("boton.mp3");
-        location.href="./html/juego.html"
+        location.href="https://noticias2.github.io/coronavirus/html/buscamimos.html"
     });
 
     document.getElementById("ajustesb").addEventListener("click",function(){
