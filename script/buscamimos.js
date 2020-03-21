@@ -14,7 +14,7 @@ function eventListener(){
         });
     }
     document.getElementById("menun").addEventListener("click",function(){
-        location.href="../index.html";
+        location.href="../buscamimosindex.html";
     });
     document.getElementById("reset").addEventListener("click",function(){
         reiniciar();
