@@ -5,9 +5,9 @@ body {
     grid-gap: 20px;
 	grid-template-columns: auto max-content;
 	grid-template-areas:
-    "header header header header header"
-	"content content content sidebar sidebar"
-	"footer footer footer footer footer";
+    "header header header header header header"
+	"content content content content sidebar sidebar"
+	"footer footer footer footer footer footer";
 }
 /* esp = 1 */
 header {

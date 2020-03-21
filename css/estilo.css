@@ -1,9 +1,11 @@
 /* esp = 1 */
 body {
   font: 400 20px BentonSans;
-  line-height: 2.0;
+  line-height: 1.5;
   color: #202020;
   background-color: #ffffff;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 /* esp = 1 */
 footer {
@@ -70,6 +72,10 @@ p {
   color: rgb(0, 0, 0);
   font-family: BentonSans;
 }
+nav p {
+  font-size: 12px;
+  color: #303030;
+}
 /* esp = 3 */
 section p::first-letter {
   font-size: 1.2em;
@@ -84,6 +90,9 @@ video {
 section img {
   padding: 0px;
   border: 3px solid black;
+}
+figure {
+  padding-left: 0px;
 }
 /* esp = 1 */
 audio {
