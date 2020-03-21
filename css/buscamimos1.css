@@ -1,4 +1,7 @@
 
+body {
+    background-color: rgba(255,145,197,0.25);
+}
 @font-face{
     font-family: "DejaVuSansMono";
     src: url("../fuentes/DejaVuSansMono.ttf") format("truetype");
