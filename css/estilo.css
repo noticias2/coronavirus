@@ -33,7 +33,7 @@ footer img {
 }
 /* esp = 1 */
 h1 {
-  background-color: rgba(137, 226, 255, 0.44);
+  background-color: rgba(100, 255, 248, 0.28);
   text-transform: uppercase;
   padding: 100px 25px;
   text-align: center; 
@@ -121,7 +121,7 @@ nav li {
   margin: 3px 0px;
   list-style-position: inside;
   list-style-type: square;
-  background: rgba(137, 226, 255, 0.44);
+  background-color: rgba(100, 255, 248, 0.28);
 }
 /* esp = 1 */
 table {

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <title>Te como</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/buscamimos1.css">
+
+    <script type="text/javascript" src="script/buscamimos1.js"></script>
+</head>
+<body id="bod">
+
+<section id="principal" class="pantalla">
+    <h1 id="titulo">Buscaminas</h1>
+    <div id="jugar" class="bort">Jugar</div>
+    <div id="recorrb" class="bort">Récords</div>
+    <div id="reglasb" class="bort">Reglas</div>
+    <div id="ajustesb" class="bort">Ajustes</div>
+    <div id="info" class="bort">Info</div>
+
+
+</section>
+
+
+<section id="ajustes" class="nopantalla">
+    <h1>Ajustes</h1>
+    <div>
+        <div class="selec">
+            <span class="txt">Música en el Menú</span>
+            <div id="bb0" class="bott">
+                <div class="off" id="bb01"></div>
+            </div>
+        </div>
+        <div class="selec">
+            <span class="txt">Sonidos</span>
+            <div id="bb1" class="bott">
+                <div class="off" id="bb11"></div>
+            </div>
+        </div>
+        <div class="selec"  id="mod">
+            <span class="txt">Tamaño de las fichas</span>
+            <input type="range" id="sli">
+            <div id="bb2" class="bott">
+                <div class="off" id="bb21"></div>
+            </div>
+        </div>
+        <div class="selec" id="arrrst">
+            <span class="txt">Modo Arrastrar</span>
+            <div id="bb3" class="bott">
+                <div class="off" id="bb31"></div>
+            </div>
+        </div>
+        <div class="selec">
+            <span class="txt">Modo</span>
+            <div id="rel">
+                <div id="modoselec"  class="modoselec">
+                    <p class="selecT e1" id="e1">Principiante 8x8 (10 minas)</p>
+                    <p class="selecT inv" id="e2">Intermedio 16x16 (40 minas)</p>
+                    <p class="selecT inv" id="e3">Experto 16x32 (99 minas)</p>
+                    <p class="selecT inv" id="e4">Personalizado</p>
+                </div>
+            </div>
+            <div id="bb4" class="bott">
+                <div class="off" id="bb41"></div>
+            </div>
+        </div>
+        <div class="selec">
+            <span class="txt">Resetear Ajustes</span>
+            <div id="bb-1" class="bott">
+                <div class="off" id="bb-11"></div>
+            </div>
+        </div>
+
+    </div>
+    <div id="atras" class="bort">Atrás</div>
+</section>
+
+<section id="recorr" class="nopantalla">
+    <h1>Records</h1>
+    <div id="botones">
+        <div id="rnm">
+            <div class="bttod" id="bot1">Principiante</div>
+            <div class="btto" id="bot2">Intermedio</div>
+            <div class="btto" id="bot3">Experto</div>
+        </div>
+        <ul id="ol1" class="ull">
+            <li id="r11"></li>
+            <li id="r12"></li>
+            <li id="r13"></li>
+        </ul>
+        <ul id="ol2" class="inv" >
+            <li id="r21"></li>
+            <li id="r22"></li>
+            <li id="r23"></li>
+        </ul>
+        <ul id="ol3" class="inv">
+            <li id="r31"></li>
+            <li id="r32"></li>
+            <li id="r33"></li>
+        </ul>
+    </div>
+    <div id="tow">
+        <div id="reste" class="bort">Reset</div>
+        <div id="atras2" class="bort">Atrás</div>
+    </div>
+</section>
+<section id="reglas" class="nopantalla">
+    <h1>Reglas</h1>
+    <div class="ayu">
+        <p>El juego consiste en despejar todas las casillas de una pantalla que no oculten una mina.</p>
+
+        <p>Algunas casillas tienen un número, el cual indica la cantidad de minas que hay en las casillas circundantes. Así, si una casilla tiene el número 3, significa que de las ocho casillas que hay alrededor (si no es en una esquina o borde) hay 3 con minas y 5 sin minas. Si se descubre una casilla sin número indica que ninguna de las casillas vecinas tiene mina y éstas se descubren automáticamente.</p>
+        <p>Si se descubre una casilla con una mina se pierde la partida.</p>
+        <p>Se puede poner una bandera (Usando click derecho en el ordenador o usando el boton de la bandera en el movil) donde sabes que hay una mina.</p>
+        <p>El juego también posee un sistema de récords para cada uno de los 3 niveles (no se incluye el modo personalizado) en el que se indica el menor tiempo en terminar el juego. Los niveles son:</p>
+        <ul>
+            <li>Nivel principiante: 8 × 8 casillas y 10 minas.</li>
+            <li>Nivel intermedio: 16 × 16 casillas y 40 minas.</li>
+            <li>Nivel experto: 16 × 30 casillas y 99 minas.</li>
+        </ul>
+    </div>
+    <div id="atras3">Atrás</div>
+</section>
+
+</body>
+
+</html>
